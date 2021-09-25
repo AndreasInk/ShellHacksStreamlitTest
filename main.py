@@ -3,6 +3,9 @@ import streamlit as st
 from pydantic import BaseModel
 
 
+
+
+
 if 'count' not in st.session_state:
 	st.session_state.count = 0
 
@@ -56,3 +59,23 @@ if  st.session_state.count > 0:
     questions = loadQuestions()
     for question in questions:
         study(question=Question(id= question.id, questionStr = question.questionStr, a= question.a, b=question.b, c= question.c, correct= question.correct, picked= 0))
+
+# currLinesPosition = 0
+# with open('TestQuizlet.txt') as f:
+#     lines = f.readlines()
+#     for line in  lines:
+#         st.subheader(line)
+#         for answers in range (2):
+#             st.text(line)
+
+questionNumCount = 1
+with open('TestQuizlet.txt') as f:
+    line = f.readline()
+    while line:
+        if line[0] != 'a' and line[0]!='b' and line[0]!='\n':
+            st.subheader(str(questionNumCount)+").  " + line) 
+            questionNumCount = questionNumCount + 1
+        else:
+            st.text(line)
+            
+        line = f.readline()
