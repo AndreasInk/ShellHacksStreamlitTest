@@ -1,0 +1,369 @@
+_____is the ability to create new data types from existing data types.
+a. Encapsulation c. Inheritance
+b. Information hiding d. Polymorphism - c. Inheritance
+
+___is the ability to use the same type pointer to point to pointers of different types.
+a. Overloading operators c. Inheritance
+b. Polymorphism d. Encapsulation - b. Polymorphism
+
+A ____is a data structure in which elements of the same type are added at one end and removed at another end.
+a. hash table c. queue
+b. tree d. network - c. queue
+
+A ___case is the case for which the solution is obtained directly.
+a. base c. direct
+b. general d. recursive - a. base
+
+A binary search can be performed only on .
+a. unordered lists c. comparable lists
+b. arrays d. ordered lists - d. ordered lists
+
+A call to the base class constructor is specified in the_____of a derived class.
+a. body of the definition c. heading of the constructor
+b. body of the constructor d. heading of the definition - c. heading of the constructor
+
+A doubly linked list can be traversed in direction.
+a. only the forward c. a circular
+b. only the backward d. either the forward or backward - d. either the forward or backward
+
+A doubly linked list is a linked list in which every node has a next pointer and a ____ pointer.
+a. back c. null
+b. center d. binary - a. back
+
+A function that calls another function and eventually results in the original function call is said to be___ recursive.
+a. directly c. indirectly
+b. indeterminately d. suspiciously - c. indirectly
+
+A linked list in which the last node points to the first node is called a linked list.
+a. circular c. standard
+b. recursive d. doubly - a. circular
+The last is pointing to first. So if you visualize it, it looks like a circle
+
+A linked list is a collection of .
+a. classes c. addresses
+b. nodes d. memory variables - b nodes
+
+A linked list is not a random access data structure such as a(n) .
+a. stack c. structure
+b. deque d. array - d. array
+
+A pointer variable can be passed as a parameter to a function either by value or by _____.
+a. retention c. approximation
+b. reference d. referral - b. reference
+
+A queue is a data structure.
+a. Last In First Out c. First In Last Out
+b. First In First Out d. there are no correct options - b. First In First Out
+
+A sequence of number such as 1, 1, 2, 3, 5, 8, 13, 21, 34, ... is called a sequence.
+a. Newtonian c. Fibonacci
+b. Gaussian d. Marconi - c. Fibonacci
+
+A_____leak is when there is an unused memory space that cannot be allocated.
+a. variable c. constructor
+b. function d. memory - d. memory
+
+A_____variable is a variable whose content is a memory address.
+a. class c. pointer
+b. dynamic d. heap - c. pointer
+
+A(n) ____is a data type that separates the logical properties from the implementation details.
+a. public c. private
+b. protected d. abstract data type - d. abstract data type
+
+A(n) definition is a definition in which something is defined in terms of a smaller version of itself.
+a. iterative c. non-standard
+b. general d. recursive - d. recursive
+
+A(n) is a list of items, called nodes, in which the next node is determined by the address, called the link, stored in each node.
+a. array c. linked list
+b. structure d. hash table - c. linked list
+
+A(n)____typically serves to initialize the member variables of a derived class.
+a. inheritor c. deconstructor
+b. initiator. d. constructor - d. constructor
+
+An algorithm that finds the solution to a given problem by reducing the problem to smaller versions of itself is called a(n) .
+a. iterative algorithm c. regressive algorithm
+b. recursive algorithm d. successive algorithm - b. recursive algorithm
+
+An array created during the execution of a program is called a____array.
+a. static c. just in time
+b. final d. dynamic - d. dynamic
+
+Because all the elements of a stack are of the same type, you can use a(n) to implement a stack.
+a. struct c. record
+b. array d. class - b. array
+
+Because initially the list is empty, the pointer first must be initialized to .
+a. NULL c. NIL
+b. EMPTY d. NOP - a. NULL
+
+Building a linked list backward places the item to be added at the of the linked list.
+a. beginning c. middle
+b. end d. key point - a. beginning
+
+Building a linked list forward places the item to be added at the of the linked list.
+a. beginning c. middle
+b. end d. key point - b. end
+
+By using templates, you can write a single code segment for a set of related functions, called a
+______.
+a. function template c. class set
+b. function type d. class template - a. function template
+
+Class templates are called_____types.
+a. abstract c. template
+b. general d. parameterized - d. parameterized
+
+Composition is a(n) "_____" relationship.
+a. is a c. was a
+b. has a d. had a - b. has a
+
+Every call to a recursive function has its own code and its own set of and local variables.
+a. headers c. stack
+b. parameters d. heap - b. parameters
+
+For a base class to give access to a member to its derived class and still prevent its direct access outside the class, you must declare that member under the member access specifier_____.
+a. private c. public
+b. protected d. shared - b. protected
+
+Given a pointer to a list, the function prints the elements of the list in reverse order.
+a. reverse c. invert
+b. reversePrint d. translate - b. reversePrint
+
+If a class contains the default constructor and no values are specified when the object is declared,
+the_____executes and initializes the object.
+a. default destructor 
+c. last constructor in the program listing
+b. first destructor in the program listing
+ d. default constructor - d. default constructor
+
+If a class has member variables that are pointers, you must ensure that you implement____.
+a. garbage collection c. friend functions
+b. base constructors d. destructor - d. destructor
+
+If class "dog" has a derived class "retriever", which of the following is true?
+a. In the case of single inheritance, dog can have no other derived classes.
+b. In the case of single inheritance, retriever is derived from no other class except dog.
+c. The relationship between these classes implies that dog "is a" retriever.
+d. The relationship between these classes implies that retriever "has-a" dog. - b. In the case of single inheritance, retriever is derived from no other class except dog.
+
+If there are three classes, shape, circle, and square, what is the most likely relationship among
+them?
+a. The square class is a base class, and shape and circle are derived classes of square.
+b. The shape class is a base class, and circle and square are derived classes of shape.
+c. The shape, circle, and square classes are all sibling classes.
+d. These three classes cannot be related. - b. The shape class is a base class, and circle and square are derived classes of shape.
+
+In a doubly linked list, every node contains the address of the next node except for the node.
+a. middle c. first
+b. last d. second to last - b. last
+
+In a linked list, we always want head to point to the node.
+a. key c. first
+b. main d. last - c. first
+
+In a(n) _____copy, pointers should have their own data.
+a. indirect c. deep
+b. direct d. shallow - c. deep
+
+In a(n) _____copy, two or more pointers of the same type may point to the same memory.
+a. indirect c. deep
+b. direct d. shallow - d. shallow
+
+In an ordered linked list, the search algorithm is somewhat improved because the list is___ .
+a. larger c. referenced
+b. smaller d. sorted - d. sorted
+Can apply binary search
+
+In____ , the data is stored within the hash table and no linked structure is used.
+a. closed addressing c. inverted addressing
+b. open addressing d. converted addressing - b. open addressing
+Closed addressing refers to chaining. Open addressing refers to linear probing
+
+Like function templates, _____are used to write a single code segment for a set of related classes.
+a. function types c. inherited classes
+b. class templates d. protected members - b. class templates
+
+Linear probing to avoid collision for a hash table may causes problem.
+a. storage shortage c. element clustering
+b. complicated d. no options are correct - c. element clustering
+
+lists have elements that are in no particular order.
+a. Search c. Unsorted
+b. Structured d. Randomized - c. Unsorted
+
+Passing parameters to a function has an effect at_____time.
+a. compile c. run
+b. link d. build - c. run
+
+Searching through a linked list or inserting an item in a linked list may require a___ of the list.
+a. review c. copying
+b. deletion d. traversal - d. traversal
+
+Sequential and binary search algorithms are called search algorithms.
+a. cumulative c. comparison-based
+b. compartmentalized d. key-based - c. comparison-based
+
+The * is commonly referred to as the______operator.
+a. referencing c. dereferencing
+b. allocating d. addressing - c. dereferencing
+
+The ability to combine data and operations is called_____.
+a. inheritance c. redefinition
+b. encapsulation d. composition - b. encapsulation
+
+The address of the first node in the list is stored in a separate location, called the .
+a. head c. key
+b. tail d. top - a. head
+
+The ampersand, &, is called the__________.
+a. address of operator c. entry operator
+b. sizeof operator d. heap operator - a. address of operator
+
+The attempts to find solutions to a problem by constructing partial solutions and making sure that any partial solution does not violate the problem requirements.
+a. backtracking algorithm c. interpretation algorithm
+b. inferring algorithm d. stack tracing algorithm - a. backtracking algorithm
+
+The components of a class are called the____of the class.
+a. operators c. objects
+b. friends d. members - d. members
+
+The correct syntax for the destructor of the class tempClass is_______.
+a. tempClass::~tempClass() c. tempClass::tempClass()
+b. tempClass::~tempClass(x) d. tempClass::tempClass(x) - a. tempClass::~tempClass()
+
+The destructor automatically executes when the class object goes out of___.
+a. scope c. bounds
+b. use d. phase - a. scope
+
+The function____ makes an identical copy of a stack.
+a. readStack c. clearStack
+b. buildStack d. copyStack - d. copyStack
+
+The general syntax to declare a pointer variable is____.
+a. dataType &identifier; c. &dataType identifier;
+b. *dataType identifier; d. dataType *identifier; - d. dataType *identifier;
+
+The general syntax to declare a pointer variable is____.
+a. dataType &identifier; c. &dataType identifier;
+b. *dataType identifier; d. dataType *identifier; - d. dataType *identifier;
+
+The general syntax to include the copy constructor in the definition of a class is_____.
+a. className(className& otherObject);
+b. className(className otherObject);
+c. className(const className& otherObject);
+d. className(const className* otherObject); - c. className(const className& otherObject);
+
+The header node is placed at the of a list.
+a. middle c. beginning
+b. end d. key location - c. beginning
+
+The implementation of member functions can be placed in a separate file whose extension
+is_____.
+a. .cxx c. .cpp
+b. .c d. .cc - c. .cpp
+
+The members of a class are classified into three categories (public, private, protected)
+called_____access specifiers.
+a. member c. function
+b. object d. object - a. member
+
+The name of a constructor is the same as the name of the_____.
+a. class c. helper function
+b. main function d. friend function - a. class
+
+The operation checks whether the stack is empty.
+a. isFullStack c. peek
+b. isEmptyStack d. pop - b. isEmptyStack
+
+The operation is used to remove the top element from the stack.
+a. pop c. peek
+b. push d. isEmpty - a. pop
+
+The operation___ checks whether the stack is full.
+a. isEmpty c. pop
+b. peek d. isFullStack - d. isFullStack
+
+The operation___ is used to add an element onto the stack.
+a. push c. add
+b. pop d. insert - a. push
+
+The process of solving a problem by reducing it to smaller versions of itself is called .
+a. iteration c. recursion
+b. succession d. repulsion - c. recursion
+
+The queue operation determines whether the queue is full.
+a. isFullQueue c. queueFront
+b. isNullQueue d. deleteQueue - a. isFullQueue
+
+The statement________declares a variable "board" to be a pointer to an int pointer.
+a. int **board c. *int *board
+b. int*&board d. **int board - a. int **board
+
+The statement______declares list to be an array of five integers.
+a. int [5] list; c. int list[];
+b. int list[5]; d. int list[]={0,1,2,3,4,5}; - b. int list[5];
+
+The statement______stores the address of x in p.
+a. p = &x; c. x = &p;
+b. p = &x d. x = &p - a. p = &x;
+
+The syntax for accessing a class (struct) member using the operator -> is______.
+a. pointerVariableName.classMemberName
+b. pointerVariableName->classMemberName
+c. pointerVariableName&->classMemberName
+d. &pointerVariableName.classMemberName - b. pointerVariableName->classMemberName
+
+The value of a pointer variable is an_____.
+a. address c. array
+b. entry in a table d. unknown value - a. address
+
+To define new classes, you would usually create new_____files.
+a. header c. prototype
+b. friend d. placeholder - a. header
+
+To include a header file in a program, you use the preprocessor command_____.
+a. pragma c. pull
+b. fetch d. include - d. include
+
+To include a system-provided header file, such as iostream, in a user program, you enclose the
+header file between_____.
+a. curly brackets c. asterisks
+b. angular brackets d. square brackets - b. angular brackets
+
+To redefine a public member function of a base class in the derived class, the corresponding
+function in the derived class must have_____.
+a. the same name, number, and types of parameters
+b. only the same name and types of parameters
+c. only the same name and number
+d. only the same number and types of parameters - a. the same name, number, and types of parameters
+
+Variables that are created during program execution are called_____ variables.
+a. stack c. dynamic
+b. heap d. static - c. dynamic
+
+When a dynamic variable is no longer needed, it can be______.
+a. renamed c. reconstructed
+b. reassigned d. destroyed - d. destroyed
+
+When we check the array locations t, (t + 1) % HTSize, (t + 2) % HTSize, . . ., (t + j) % HTSize it is called the of the hash table.
+a. probe sequence c. hash value
+b. probe value d. kindred value - a. probe sequence
+There are multiple values
+
+When you declare a derived class object, this object inherits the members of the base class, but
+the derived class object cannot directly access the_____.
+a. private data members of the base class
+b. data members in its own class
+c. base class constructors
+d. public data members of the base class - a. private data members of the base class
+
+Whenever a system is modeled on the First In First Out principle, are used.
+a. stacks c. arrays
+b. trees d. queues - d. queues
+
+You can initialize a pointer variable by setting it to____.
+a. EMPTY c. INIT
+b. NULL d. NONE - b. NULL
