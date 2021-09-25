@@ -2,10 +2,6 @@ import streamlit as st
 import time
 from playsound import playsound
 from datetime import datetime
-# for playing note.wav file
-
-
-
 
 next = datetime.now() ##+ 2700
 
