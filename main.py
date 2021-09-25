@@ -13,16 +13,33 @@ class Question(BaseModel):
     b: str = ""
     c: str = ""
     correct: str = ""
-    picked: str = ""
+    picked: int = 0
 
 def study(question: Question()):
     st.header(str(question.id) + ") "+ question.questionStr)
-    st.button(question.a)
-    st.button(question.b)
-    st.button(question.c)
+    a = st.button(question.a)
+    if str(question.id) not in st.session_state:
+	    st.session_state[str(question.id)] = 0
+    if a:
+        question.picked  = 1
+        st.session_state[str(question.id)] = question.picked
+
+    b = st.button(question.b)
+    if b:
+        question.picked  = 2
+        st.session_state[str(question.id)] = question.picked
+
+    c = st.button(question.c)
+    if c:
+        question.picked  = 3
+        st.session_state[str(question.id)] = question.picked
+    if st.session_state[str(question.id)] == 3:
+        st.write("Picked: " + "C")
+    else:
+        st.write("Picked: " + str("A" if  st.session_state[str(question.id)] == 1 else "B"))
 
 def loadQuestions():
-    questions = [Question(id= 0, questionStr = "Hello World", a= "a", b="b", c= "c", correct= "c", picked= "")]
+    questions = [Question(id= 0, questionStr = "Hello World", a= "a", b="b", c= "c", correct= "c", picked= 0)]
     ## Get Questions From JSON
     return questions
 st.image("logo.png")
@@ -38,4 +55,4 @@ if start:
 if  st.session_state.count > 0:
     questions = loadQuestions()
     for question in questions:
-        study(question=Question(id= question.id, questionStr = question.questionStr, a= question.a, b=question.b, c= question.c, correct= question.correct, picked= ""))
+        study(question=Question(id= question.id, questionStr = question.questionStr, a= question.a, b=question.b, c= question.c, correct= question.correct, picked= 0))
