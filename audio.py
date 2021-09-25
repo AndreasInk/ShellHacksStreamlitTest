@@ -1,17 +1,19 @@
 import streamlit as st
 import time
 from playsound import playsound
-from datetime import datetime
+import datetime
+from datetime import datetime as dt
+def playAudio():
+    time_change = datetime.timedelta(minutes=45)
+    next = dt.now()  + time_change
 
-next = datetime.now() ##+ 2700
 
+    next_time = next.strftime("%H:%M:%S")
 
-next_time = next.strftime("%H:%M:%S")
-
-while True:
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    if current_time == next_time:
-        st.text("HERE")
-        playsound('001.mp3')
-        time.sleep(2700)
+    while True:
+        now = dt.now()
+        current_time = now.strftime("%H:%M:%S")
+        if current_time == next_time:
+            st.text("HERE")
+            playsound('001.mp3')
+            time.sleep(2700)
