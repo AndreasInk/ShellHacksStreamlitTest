@@ -8,6 +8,7 @@ if 'count' not in st.session_state:
 
 class Question(BaseModel):
     id: int = 0
+    questionStr: str = ""
     a: str = ""
     b: str = ""
     c: str = ""
@@ -15,12 +16,13 @@ class Question(BaseModel):
     picked: str = ""
 
 def study(question: Question()):
+    st.header(str(question.id) + ") "+ question.questionStr)
     st.button(question.a)
     st.button(question.b)
     st.button(question.c)
 
 def loadQuestions():
-    questions = [Question(id= 0, a= "a", b="b", c= "c", correct= "c", picked= "")]
+    questions = [Question(id= 0, questionStr = "Hello World", a= "a", b="b", c= "c", correct= "c", picked= "")]
     ## Get Questions From JSON
     return questions
 st.image("logo.png")
@@ -36,4 +38,4 @@ if start:
 if  st.session_state.count > 0:
     questions = loadQuestions()
     for question in questions:
-        study(question=Question(id= question.id, a= question.a, b=question.b, c= question.c, correct= question.correct, picked= ""))
+        study(question=Question(id= question.id, questionStr = question.questionStr, a= question.a, b=question.b, c= question.c, correct= question.correct, picked= ""))
